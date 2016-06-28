@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="node_modules/datatables/media/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="node_modules/tooltipster/css/tooltipster.css">
+    
+    <meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width">
+  	<title>EWP-HA-16</title>
+</head>
+<body>
+
+    <table id="movies">
+        <thead>
+        <tr>
+            <th>Titel</th>
+            <th>Erscheinungsjahr</th>
+            <th>Land</th>
+	    	<th>Hauptdarsteller</th>
+        </tr>
+        </thead>
+    </table>
+
+    <button id="favmovie">Mein Lieblingsfilm</button>
+
+        <div id="favmovieContent">
+            <img src="https://upload.wikimedia.org/wikipedia/en/b/b8/A_Beautiful_Mind_Poster.jpg" alt="Mein Lieblingsfilm">
+        	<div>"A Beautiful Mind" ist mein Liebelingsfilm, weil das Thema spannend, die Story packend und die schauspielerischen Leistungen super sind.</div>
+
+        </div>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/datatables/media/js/jquery.dataTables.min.js"></script>
+    <script src="node_modules/tooltipster/js/jquery.tooltipster.min.js"></script>
+    <script src="movies.js"></script>
+
+</body>
+</html>

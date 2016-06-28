@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "datatables": "^1.10.12",
+    "tooltipster": "^2.1.1"
+  }
+}
