@@ -1,3 +1,7 @@
+var $ = require("jquery");
+global.jQuery = $;
+var dt = require( 'datatables' )( window, $ );
+
 $("#movies").DataTable({
   "ajax" : "movies.json",
   "iDisplayLength": 5,
@@ -5,6 +9,7 @@ $("#movies").DataTable({
   "order": [[ 1, "desc" ]]
 });
 
+var tooltip = require('tooltipster');
 
 $("#favmovie").tooltipster({
     content: $("#favmovieContent").detach()
